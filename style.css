@@ -1,35 +1,39 @@
-
-body{
+*{
     margin: 0;
     padding: 0;
 }
-section{
-    background: url(/images/background.png);
+body{
+    background-image: fixed;
     background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
 }
-section.box{
+.box{
     position: absolute;
     width: 721px;
     height: 1024px;
-    left: 100px;
-    top: 212px;
-    background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
-    background-blend-mode: overlay;
-    filter: blur(66.5px);
-    border-radius: 46px;
+    left: 0px;
+    top: 0px;
 }
-form{
-    position: absolute;
-    width: 521px;
-    height: 502px;
-    left: 100px;
-    top: 212px
+.box{
+    border: none;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.6) 0.19%, rgba(0, 0, 0, 0) 102.56%);
+border-radius: 46px;
+}
+.form{
+    border: none;
+    height: 800px;
+    margin-top: 150px;
 }
 h1{
+    color: white;
     padding: 60px 30px 30px 30px ;
     text-align: center;
+    font-family: 'Roboto';
+    font-size:50px;
+    font-style: normal;
+    font-weight: 500;
 }
 .input-data{
     width: 521px;
@@ -40,16 +44,24 @@ h1{
     margin-left: 90px;
 }
 .input-data::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 24px;
-    color: lightgray;
-    padding-left: 20px;
+    color: white;
+    padding-left: 30px;
 }
 button{
     width: 521px;
     height: 80px;
+    font-size: 20px;
+    font-weight: 800;
     border-radius: 38px;
     margin-top: 80px;
     margin-left: 90px;
     background-color: #FFCD2D;
     border: none;
+}
+.input-data{
+    background-color: transparent;
 }
