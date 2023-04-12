@@ -1,10 +1,42 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.container{
-    display: flex;
-    padding: 20px 80px;
-    align-items: center;
-    justify-content: space-between;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Login</title>
+    <link rel="stylesheet" href="/css/style2.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="/images/Group 61.png" class="logo">
+            <ul>
+                <li><img src="/images/Group 62.png"><a href="#" type="button" class="btn"></a></li>
+                <li><img src="/images/Group 63.png"><a href="#" type="button" class="btn"></a></li>
+            </ul>
+        </nav>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="/images/dumbledore.png" >
+            </div>
+            <div class="grid-item">
+                <img src="/images/hagrid.png" >
+            </div>
+            <div class="grid-item">
+                <img src="/images/lupin.png" >
+            </div>
+            <div class="grid-item">
+                <img src="/images/mcgonagall.png" >
+            </div>
+            <div class="grid-item">
+                <img src="images/umbridge.png" >
+            </div>
+            <div class="grid-item">
+                <img src="images/snape.png" >
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
