@@ -33,6 +33,7 @@ nav ul li a{
  
 .grid-container {
     background-color: #CDCFEE;
+    background-origin: padding-box;;
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
