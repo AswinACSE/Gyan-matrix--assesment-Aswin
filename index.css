@@ -17,9 +17,8 @@ body{
 .box{
     border: none;
     justify-content: center;
-    display: flex;
     background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.6) 0.19%, rgba(0, 0, 0, 0) 102.56%);
-border-radius: 46px;
+    border-radius: 46px;
 }
 .form{
     border: none;
